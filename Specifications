@@ -1,0 +1,55 @@
+Assignment: School Payment Management System
+
+Objective:
+
+Design and implement a School Payment Management System in Java that allows administrators to manage student payments, track balances, and generate reports.
+
+Project Specifications:
+
+1. The system should have the following classes:
+    - Student: Represents a student with attributes like student ID, name, and balance.
+    - Payment: Represents a payment made by a student with attributes like payment ID, student ID, payment date, and amount.
+    - SchoolPaymentSystem: Manages student payments, tracks balances, and generates reports.
+2. The Student class should have the following attributes:
+    - studentId: A unique identifier for the student.
+    - name: The name of the student.
+    - balance: The current balance of the student.
+3. The Payment class should have the following attributes:
+    - paymentId: A unique identifier for the payment.
+    - studentId: The ID of the student who made the payment.
+    - paymentDate: The date the payment was made.
+    - amount: The amount of the payment.
+4. The SchoolPaymentSystem class should have the following methods:
+    - addStudent(Student student): Adds a new student to the system.
+    - makePayment(Payment payment): Records a payment made by a student.
+    - getBalance(String studentId): Returns the current balance of a student.
+    - generateReport(): Generates a report of all payments made by students.
+5. The system should use a database or a file to store student and payment information.
+
+Clues and Hints:
+
+- Use a HashMap or a database to store student and payment information.
+- Use Java's built-in Date class to handle payment dates.
+- Implement input validation and error handling for user inputs.
+- Use meaningful variable and method names to improve code readability.
+
+Deliverables:
+
+1. A fully functional School Payment Management System in Java.
+2. A report detailing the design and implementation of the system.
+3. A demonstration of the system's functionality.
+
+Grading Criteria:
+
+1. Correctness and functionality of the system.
+2. Code quality, organization, and maintainability.
+3. Error handling and input validation.
+4. Report quality and completeness.
+
+Additional Tips:
+
+- Follow best practices for coding and documentation.
+- Use Java's built-in features and libraries to simplify the implementation.
+- Test your code thoroughly to ensure it works as expected.
+
+By completing this assignment, you will demonstrate your understanding of object-oriented programming, database management, and report generation in Java.
